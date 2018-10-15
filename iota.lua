@@ -488,7 +488,7 @@ function iota.dissector(tvbuf,pktinfo,root)
 
     -- now let's check it's not too short
     if pktlen < IOTA_PKT_LEN then
-        dprint("packet length",pktlen,"too short")
+        -- dprint("packet length",pktlen,"too short")
         return
     end
 	
